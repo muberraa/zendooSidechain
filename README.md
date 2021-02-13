@@ -62,7 +62,7 @@ OS: Elementary OS 5.1.7 Hera
   ```
   $ git clone https://github.com/HorizenOfficial/Sidechains-SDK.git
   $ cd Sidechains-SDK
-  $ export JAVA_HOME=/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/
+  $ export JAVA_HOME=/usr/lib/jvm/adoptopenjdk-11-hotspot-amd64/
   $ mvn clean package
 	
   ```
