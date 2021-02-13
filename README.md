@@ -74,6 +74,7 @@ OS: Elementary OS 5.1.7 Hera
 
 
 ## Step 2:Declare a sidechain
+
 To declare a sidechain, we need to generate a keypair.
 
 Bootstrapping Tool
@@ -81,6 +82,7 @@ Bootstrapping Tool
 
 $ java -jar tools/sctool/target/sidechains-sdk-scbootstrappingtools-0.2.6.jar
 ```
+Generate 3 ramdom 32 caracteres seeds with password generator.
 ```
 
 $KEY_SEED=$(tr -dc A-Za-z0-9 </dev/urandom | head -c 32) && echo KEY_SEED = $KEY_SEED >> ~/.bashrc ```
