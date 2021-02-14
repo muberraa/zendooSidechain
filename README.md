@@ -82,7 +82,7 @@ Bootstrapping Tool
 
 $ java -jar tools/sctool/target/sidechains-sdk-scbootstrappingtools-0.2.6.jar
 ```
-Generate 3 random 32 characters seeds with password generator.
+Generate 3 random 32 characters seeds with password generator.(on new terminal tab)
 ```
 
 $KEY_SEED=$(tr -dc A-Za-z0-9 </dev/urandom | head -c 32) && echo KEY_SEED = $KEY_SEED >> ~/.bashrc ```
